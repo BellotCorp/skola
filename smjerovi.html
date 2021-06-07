@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>TSAT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="dizajn.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image" href="Slike/logo.png">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card" id="myNavbar">
+
+    <!-- Left-sided navbar links -->
+    <div class="w3-left w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-green"> NASLOVNICA</a>
+      <a href="smjerovi.html" class="w3-bar-item w3-button w3-hover-green" style="background-color:green;"> SMJEROVI</a>
+      <a href="raspored.html" class="w3-bar-item w3-button w3-hover-green"> RASPORED</a>
+      <a href="upisi.html" class="w3-bar-item w3-button w3-hover-green"> UPISI</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">ZATVORI ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">NASLOVNICA</a>
+  <a href="smjerovi.html" onclick="w3_close()" class="w3-bar-item w3-button">SMJEROVI</a>
+  <a href="raspored.html" onclick="w3_close()" class="w3-bar-item w3-button">RASPORED</a>
+  <a href="upisi.html" onclick="w3_close()" class="w3-bar-item w3-button">UPISI</a>
+</nav>
+
+
+
+<!-- About Section -->
+<div class="w3-container" style="padding:150px 250px" id="home">
+  <h1 class="w3-center"><b>SMJEROVI</b></h1><br><br>
+  <h3 class="w3-center"><b>Tehničar za računalstvo</b></h3>
+  <div class="w3-row-padding w3-left" style="margin-top:64px">
+      <p>
+        Moderan program usklađen s trenutnim tehničkim dostignućima u području računalstva program je fleksibilan u svim strukovnim modulima i predmetima s mogućnošću jednostavne implementacije novih dostignuća velik broj sati laboratorijskih vježbi u svim strukovnim predmetima stavlja temeljni naglasak na praktična znanja i vještine polaznika program pokriva čitavo područje računalstva što je osigurano kroz različite strukovne predmete sustavno raspoređene kroz sve četiri godine obrazovanja – sadržaji pojedinih područja se sustavno nadograđuju, od osnovnih prema složenijim.
+    </p> 
+
+    <h4 class="w3-left">2 podsmjera:</h4><br><br>
+    <b><p class="w3-center">Programer</p></b><p>
+      Programeri se više zanimaju za software development i programiranje nego dijagnostičari. Oni programiraju u programskim jezicima kao što su c#, C++, JavaScript, CSS. Mora se najmanje 5 učenika po razredu prijaviti na ovaj smijer kako bi bio proveden. Inače se cijeli razred prebacuje na drugi smijer gdje je većina. Na kraju godine svaki učenik mora prezentirati svoj završni rad o svojem smijeru.      </p>
+      <br><br><img src="Slike/programer.jpg" alt="slika programera" class="responsive"><br><br>
+      <b><p class="w3-center">Dijagnostičar</p></b><p>
+    Dijagnostičari se više zanimaju za hardware i funkcionalnost operacijskog sustava nego programeri. Oni otkrivaju, dijagnosticiraju i riješavaju  probleme u računalnim sustavima, serverima, mrežama i osobnim računalima. Mora se najmanje 5 učenika po razredu prijaviti na ovaj smijer kako bi bio proveden. Inače se cijeli razred prebacuje na drugi smijer gdje je većina. Na kraju godine svaki učenik mora prezentirati svoj završni rad o svojem smijeru.
+    </p><br><br>
+    <img src="Slike/rsz_dijagno.jpg" alt="slika dijagnosticara" class="responsive"> 
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-container" style="padding:25px 250px" id="about">
+  <h3 class="w3-center"><b>Tehničar za mehatroniku</b></h3>
+  <div class="w3-row-padding w3-left" style="margin-top:64px">
+      <p>
+        Tehničar za mehatroniku projektira, nadograđuje i održava mehatroničke sustave – strojeve, alate i uređaje koji se sastoje od elektroničkih, strojarskih, optičkih, automatiziranih i kompjuteriziranih sklopova. U novije vrijeme sve je više mehatroničkih proizvoda: primjerice razni roboti, digitalno upravljani strojevi, automatski vođena vozila, elektroničke kamere, telefaks uređaji, fotokopirni strojevi, avio-uređaji i dr. Bavi se projektiranjem automatskih strojeva, naprava i alata te prema potrebi nadograđuje navedene uređaje. Izrađuje tehnološku dokumentaciju za neki uređaj uz pomoć specijaliziranih računalnih programa (CAD/CAM, SOLID, EDGE, CATIA). Također nadzire vođenje složenih procesa u pogonima izrade mehatroničkih uređaja.
+    </p> 
+    
+    <h4 class="w3-left">2 podsmjera:</h4><br><br>
+    <b><p class="w3-center">Mehaničar</p></b><p>
+      Mehaničari se zanimaju oko mehaničkog dijela strojeva više nego troničari. Oni popravljaju, nadograđuju, podmazuju fizičke dijelove stroja. Mora se najmanje 5 učenika po razredu prijaviti na ovaj smijer kako bi bio proveden. Inače se cijeli razred prebacuje na drugi smijer gdje je većina. Na kraju godine svaki učenik mora prezentirati svoj završni rad o svojem smijeru.      
+      <b><p class="w3-center">Troničar</p></b><p>
+        Troničari se zanimaju oko softwareskog dijela strojeva više nego mehaničari. Oni se brinu oko softwareske ispravnosti i preciznosti stroja i dizajna rada. Mora se najmanje 5 učenika po razredu prijaviti na ovaj smijer kako bi bio proveden. Inače se cijeli razred prebacuje na drugi smijer gdje je većina. Na kraju godine svaki učenik mora prezentirati svoj završni rad o svojem smijeru.    </p><br><br>
+    </div>
+  </div>
+</div>
+
+<img src="Slike/rsz_mehatronika.jpg" alt="slika mehantronicara" class="responsive">
+<br><br><br><br>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey w3-hover-green"><i class="fa fa-arrow-up w3-margin-right"></i>Naslovna</a>
+  <div class="w3-xlarge w3-section">
+    <div class="w3-center w3-small" style="margin-top:5px">
+        <p>Bellot Corporation d.o.o, All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    </script>
+ 
+</body>
+</html>
